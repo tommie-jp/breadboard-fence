@@ -2,6 +2,20 @@
 
 [English](README.md) | [日本語](README.ja.md)
 
+> [!IMPORTANT]
+> **開発は [tommie-jp/tommie-fence](https://github.com/tommie-jp/tommie-fence) へ移りました。**
+> circuit / breadboard / perfboard の 3 つのフェンスを 1 つのモノレポにまとめています。
+> このリポジトリは読み取り専用の保管庫です。
+>
+> - **最新の `.vsix`**: [tommie-fence の Releases](https://github.com/tommie-jp/tommie-fence/releases)
+>   (`breadboard-fence-v0.4.0` 以降)
+> - **コードと文法**: [packages/breadboard-fence](https://github.com/tommie-jp/tommie-fence/tree/main/packages/breadboard-fence)
+> - **履歴**: 全コミットが移行先にあります
+>   (`git log packages/breadboard-fence` で最初のコミットまで遡れます)
+>
+> ここに残る Release は `v0.3.0` までです。**`v0.3.0` の後の 4 件の改良は
+> `breadboard-fence-v0.4.0` に入っています。**
+
 Markdown の ` ```breadboard ` フェンスに YAML で配線を書くと、VS Code のプレビューに
 ブレッドボードの実体配線図がレンダリングされる拡張機能。
 
